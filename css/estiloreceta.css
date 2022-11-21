@@ -1,14 +1,21 @@
 body {background: #34495E url(../imagenes/pruebafondo.png) no-repeat fixed center;
 }
 
-header {background-color: #F4ECF7;}
+header {display: flex;  justify-content: space-around;
+flex-wrap: wrap; background-color: #F4ECF7;}
+.imagenlogo { width: 60px; position: relative; top: 10px;}
+.tituloprincipal {color: #1A5276; background-color: #F4ECF7; font-family: verdana; font-size: xx-large;
+   text-decoration: underline; text-align: center;}
+.redes {background-color:#34495E; position: relative; height: 30px; top: 20px;
+  justify-content: space-around; }
+.whatsappheader {width: 20px; position: relative; top: 5px; right: 2px;}
+.instagramheader {width: 20px; position: relative; top:5px; left: 2px;}
+.facebookheader {width: 20px; position: relative; top: 5px;}
+
 nav {background-color: #F4ECF7; font-family: verdana;font-size: small;
  text-align: center; }
 aside {background-color: #F4ECF7;
 border: 3px black solid; align-items: center;}
-footer {background-color:#34495E;}
-.tituloprincipal {color: #1A5276; background-color: #F4ECF7; font-family: verdana; font-size: xx-large;
- text-decoration: underline; text-align: center;}
 
 .IMAGENTORTA {
  width: 380px;
@@ -34,14 +41,23 @@ text-decoration: underline; text-align: center;}
 .cuerpotexto {color: black; font-family: verdana; font-size: small; align-items: center;
  text-align: center;}
 
-.instagram {width: 30px;
-position: relative;
-left: 580px;}
-.facebook {width: 30px;
-position: relative;
-left: 620px;}
+footer { display: flex; justify-content: center; justify-content: space-between;
+flex-wrap: wrap; background-color:#34495E;}
+.mapa {width: 120px; position: relative; left: 108px; top: 0px;}
+.redesfooter {background-color: #34495E;
+  justify-content: space-around; position: relative;}
+.whatsappfooter {width: 40px; position: relative; top: 40px;}
+.instagramfooter {width: 40px; position: relative; top: 40px;}
+.facebookfooter {width: 40px; position: relative; top: 40px;}
+.infopersonal {background-color: #34495E; width: 140px;
+   position: relative; right: 140px; top: 0px}
+.informacion {color: white; font-family: Verdana; text-align: center;
+font-size: small}
+.textoinfo {color: white; font-family: Verdana; text-align: center;
+font-size: small;}
 
-.iconowhatsapp {width: 50px;
+
+.iconowhatsapp {width: 30px;
 position: fixed;
 bottom: 10px;
 right: 15px;}
